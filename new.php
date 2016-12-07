@@ -1,6 +1,6 @@
-<<?php 
+<?php 
 
-for ($i = 5; $i < 0; $i--) { 
+/*for ($i = 5; $i < 0; $i--) { 
   for ($j = 5; $j < 0 ; $j--) { 
   	if ( $i == $j) {
   	  echo "*";
@@ -12,16 +12,24 @@ for ($i = 5; $i < 0; $i--) {
 }
 echo "stri";
 echo "tag 2";
-
-class Car() {
-  $seats = 4;
-  $fuel = '50 L';
-  public __construct($seats, $fuel) {
-    $this->$seats = $seats;
+*/
+class Car {
+  public $seats = 4;
+  public $fuel = '50 L';
+  public function __construct($seats, $fuel) {
+    $this->seats = $seats;
     $this->fuel = $fuel;
+  }
+
+  public function getCarDetails()
+  {
+    echo "Seat capacity of this Car is = " . $this->seats . ", and the fuel capacity of this car is = "
+    . $this->fuel . ".";
   }
 }
 
 $alto = new Car(4, '70 L');
+
+$alto->getCarDetails();
 
  ?>

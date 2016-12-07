@@ -12,4 +12,13 @@ for ($i = 5; $i < 0; $i--) {
 }
 echo "stri";
 echo "tag 2";
+
+class Car() {
+  $seats = 4;
+  $fuel = '50 L';
+  public __construct($seats, $fuel) {
+    $this->$seats = $seats;
+    $this->fuel = $fuel;
+  } 
+}
  ?>

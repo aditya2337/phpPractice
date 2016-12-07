@@ -19,6 +19,9 @@ class Car() {
   public __construct($seats, $fuel) {
     $this->$seats = $seats;
     $this->fuel = $fuel;
-  } 
+  }
 }
+
+$alto = new Car(4, '70 L');
+
  ?>

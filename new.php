@@ -23,7 +23,7 @@ class Car {
 
   public function getCarDetails()
   {
-    echo "Seat capacity of this Car is = " . $this->seats . ", and the fuel capacity of this car is = "
+    echo "Seat capacity of this Car is = " . $this->seats . " and the fuel capacity of this car is = "
     . $this->fuel . ".";
   }
 }

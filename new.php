@@ -36,6 +36,6 @@ $alto = new Car(4, '70 L');
 
 $alto->getCarDetails();
 $alto->setFuelCapacity('80 L');
-$alto->getCarDetails(); 
+$alto->getCarDetails();
 
  ?>

@@ -28,4 +28,4 @@ $alto->setFuelCapacity('80 L');
 $alto->getCarDetails();
 
 
- ?>
+?>

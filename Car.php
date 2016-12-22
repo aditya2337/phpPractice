@@ -1,6 +1,6 @@
 <?php 
 
-namespace My\Project\CarObject;
+namespace CarObject;
 
 class Car {
   public $seats = 4;
@@ -13,7 +13,7 @@ class Car {
   public function getCarDetails()
   {
     echo "Seat capacity of this Car is = " . $this->seats . " and the fuel capacity of this car is = "
-    . $this->fuel . ".";
+    . $this->fuel . ".<br>";
   }
 
   public function setFuelCapacity($newFuel) {

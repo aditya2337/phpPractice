@@ -13,6 +13,9 @@
 echo "stri";
 echo "tag 2";
 */
+
+namespace My\Project\CarObject;
+
 class Car {
   public $seats = 4;
   public $fuel = '50 L';
